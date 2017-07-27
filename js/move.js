@@ -192,7 +192,7 @@ Cartoon.prototype.startGoDown = function(){
 		This.iActionCount++;
 		This.iActionCount %= 2;
 		This.oCartoon.src = 'images/cartoon/down-' + This.iActionCount + '.png';
-	}, 80);
+	}, 30);
 }
 
 //往左方走
@@ -212,7 +212,7 @@ Cartoon.prototype.startGoLeft = function(){
 		This.iActionCount++;
 		This.iActionCount %= 3;
 		This.oCartoon.src = 'images/cartoon/left-' + This.iActionCount + '.png';
-	}, 80);
+	}, 30);
 }
 
 //往右方走
@@ -232,7 +232,7 @@ Cartoon.prototype.startGoRight = function(){
 		This.iActionCount++;
 		This.iActionCount %= 3;
 		This.oCartoon.src = 'images/cartoon/right-' + This.iActionCount + '.png';
-	}, 80);
+	}, 30);
 }
 
 //往左下方走
@@ -255,7 +255,7 @@ Cartoon.prototype.startGoLeftDown = function(){
 		This.iActionCount++;
 		This.iActionCount %= 2;
 		This.oCartoon.src = 'images/cartoon/down-' + This.iActionCount + '.png';
-	}, 80);
+	}, 30);
 }
 
 //往右下方走
@@ -278,7 +278,7 @@ Cartoon.prototype.startGoRightDown = function(){
 		This.iActionCount++;
 		This.iActionCount %= 2;
 		This.oCartoon.src = 'images/cartoon/down-' + This.iActionCount + '.png';
-	}, 80);
+	}, 30);
 }
 
 
